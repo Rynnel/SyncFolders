@@ -1,5 +1,5 @@
-chmod +x HW_1.sh
-./HW_1.sh > /dev/null
+chmod +x sync_folders.sh
+./sync_folders.sh > /dev/null
 
 if [[ $? -eq 1 ]]
 then
