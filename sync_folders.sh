@@ -20,5 +20,5 @@ done
 source=$1
 
 for sync_folder in "${@:2}"; do
-  rsync -avh --delete "$source/" "$sync_folder/"
+  rsync -a --delete "$source/" "$sync_folder/"
 done
