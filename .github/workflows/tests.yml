@@ -1,4 +1,4 @@
-name: Проверка репозитория
+name: Тесты
 on: [push]
 jobs:
   tests:
