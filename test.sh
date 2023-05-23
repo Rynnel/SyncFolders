@@ -5,6 +5,7 @@ chmod +x sync_folders.sh
 # Тест для проверки работы скрипта, если не указаны папки.
 echo "---ТЕСТ 1. Если не указаны аргументы---"
 echo ""
+echo "./sync_folders.sh"
 ./sync_folders.sh
 if [[ ! -n $1 ]]; then
     echo "Тест пройден!"
@@ -50,4 +51,4 @@ echo ""
 
 rm -r folder2
 cd testdir
-rm file1.txt file2.txt
+rm file1.txt file2.txt file3.txt
