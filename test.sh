@@ -51,4 +51,4 @@ echo ""
 
 rm -r folder2
 cd testdir
-rm file1.txt file2.txt file3.txt
+rm file1.txt file2.txt
